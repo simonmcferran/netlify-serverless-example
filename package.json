@@ -4,13 +4,16 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npm install"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/simonmcferran/netlify-serverless-example.git"
   },
   "author": "",
+  "devDependencies": {
+    "axios": "^0.21.1",
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/simonmcferran/netlify-serverless-example/issues"
